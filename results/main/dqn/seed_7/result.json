@@ -1,0 +1,119 @@
+{
+  "method": "dqn",
+  "seed": 7,
+  "success": 1,
+  "return": 22.599999999999998,
+  "steps": 24,
+  "collisions": 0,
+  "collision_rate": 0.0,
+  "route": [
+    [
+      0,
+      9
+    ],
+    [
+      0,
+      8
+    ],
+    [
+      1,
+      8
+    ],
+    [
+      2,
+      8
+    ],
+    [
+      3,
+      8
+    ],
+    [
+      4,
+      8
+    ],
+    [
+      4,
+      7
+    ],
+    [
+      4,
+      6
+    ],
+    [
+      4,
+      5
+    ],
+    [
+      4,
+      6
+    ],
+    [
+      4,
+      7
+    ],
+    [
+      4,
+      8
+    ],
+    [
+      5,
+      8
+    ],
+    [
+      6,
+      8
+    ],
+    [
+      7,
+      8
+    ],
+    [
+      8,
+      8
+    ],
+    [
+      9,
+      8
+    ],
+    [
+      9,
+      7
+    ],
+    [
+      9,
+      6
+    ],
+    [
+      9,
+      5
+    ],
+    [
+      9,
+      4
+    ],
+    [
+      9,
+      3
+    ],
+    [
+      9,
+      2
+    ],
+    [
+      9,
+      1
+    ],
+    [
+      9,
+      0
+    ]
+  ],
+  "optimal": false,
+  "first_success_check": 2160,
+  "stable_optimal_check": null,
+  "steps_to_stable_optimal": null,
+  "environment_steps": 452781,
+  "training_seconds": 51.31456279102713,
+  "evaluation_seconds": 1.0372625009767944,
+  "training_with_checks_seconds": 52.35182529200392
+}

@@ -1,0 +1,198 @@
+{
+  "q_learning": {
+    "frozen": {
+      "successful_policies": 0,
+      "n_policies": 10,
+      "return": {
+        "n": 10,
+        "mean": -213.99999999999926,
+        "std": 2.995911226518785e-14,
+        "min": -213.9999999999993,
+        "max": -213.9999999999993
+      },
+      "steps": {
+        "n": 10,
+        "mean": 200.0,
+        "std": 0.0,
+        "min": 200.0,
+        "max": 200.0
+      },
+      "collision_rate": 0.97
+    },
+    "adapted": {
+      "n_policies": 10,
+      "successful_policies": 10,
+      "optimal_policies": 10,
+      "sampling_unit": "independently trained final policy",
+      "return": {
+        "n": 10,
+        "mean": 22.999999999999996,
+        "std": 0.0,
+        "min": 22.999999999999996,
+        "max": 22.999999999999996
+      },
+      "steps": {
+        "n": 10,
+        "mean": 20.0,
+        "std": 0.0,
+        "min": 20.0,
+        "max": 20.0
+      },
+      "collision_rate": {
+        "n": 10,
+        "mean": 0.0,
+        "std": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "environment_steps": {
+        "n": 10,
+        "mean": 37108.6,
+        "std": 822.1874887558596,
+        "min": 35401.0,
+        "max": 38509.0
+      },
+      "training_seconds": {
+        "n": 10,
+        "mean": 0.17250906740446226,
+        "std": 0.004746461234081546,
+        "min": 0.163849333053804,
+        "max": 0.17837508697994053
+      },
+      "evaluation_seconds": {
+        "n": 10,
+        "mean": 0.008582912493875484,
+        "std": 0.0007522898197470572,
+        "min": 0.007673088010051288,
+        "max": 0.009890249995805789
+      },
+      "first_success_check": {
+        "n": 10,
+        "mean": 68.0,
+        "std": 13.98411797560202,
+        "min": 50.0,
+        "max": 100.0
+      },
+      "stable_optimal_check": {
+        "n": 10,
+        "mean": 69.0,
+        "std": 16.6332999331662,
+        "min": 50.0,
+        "max": 110.0
+      },
+      "steps_to_stable_optimal": {
+        "n": 10,
+        "mean": 11960.8,
+        "std": 1957.3358764742788,
+        "min": 9509.0,
+        "max": 16366.0
+      },
+      "collision_rate_pooled": 0.0,
+      "successful_steps": {
+        "n": 10,
+        "mean": 20.0,
+        "std": 0.0,
+        "min": 20.0,
+        "max": 20.0
+      }
+    }
+  },
+  "dqn": {
+    "frozen": {
+      "successful_policies": 0,
+      "n_policies": 10,
+      "return": {
+        "n": 10,
+        "mean": -175.19999999999945,
+        "std": 81.79758214302177,
+        "min": -213.9999999999993,
+        "max": -20.000000000000014
+      },
+      "steps": {
+        "n": 10,
+        "mean": 200.0,
+        "std": 0.0,
+        "min": 200.0,
+        "max": 200.0
+      },
+      "collision_rate": 0.776
+    },
+    "adapted": {
+      "n_policies": 10,
+      "successful_policies": 10,
+      "optimal_policies": 10,
+      "sampling_unit": "independently trained final policy",
+      "return": {
+        "n": 10,
+        "mean": 22.999999999999996,
+        "std": 0.0,
+        "min": 22.999999999999996,
+        "max": 22.999999999999996
+      },
+      "steps": {
+        "n": 10,
+        "mean": 20.0,
+        "std": 0.0,
+        "min": 20.0,
+        "max": 20.0
+      },
+      "collision_rate": {
+        "n": 10,
+        "mean": 0.0,
+        "std": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "environment_steps": {
+        "n": 10,
+        "mean": 54141.2,
+        "std": 11843.172592961173,
+        "min": 40068.0,
+        "max": 75497.0
+      },
+      "training_seconds": {
+        "n": 10,
+        "mean": 5.988769200330717,
+        "std": 1.3178584760997316,
+        "min": 4.433291373978136,
+        "max": 8.364337211016391
+      },
+      "evaluation_seconds": {
+        "n": 10,
+        "mean": 0.12887939077118063,
+        "std": 0.03652567077274871,
+        "min": 0.07679691702651326,
+        "max": 0.1879252049839124
+      },
+      "first_success_check": {
+        "n": 10,
+        "mean": 180.0,
+        "std": 90.55385138137417,
+        "min": 20.0,
+        "max": 310.0
+      },
+      "stable_optimal_check": {
+        "n": 10,
+        "mean": 302.0,
+        "std": 169.82343772283025,
+        "min": 100.0,
+        "max": 560.0
+      },
+      "steps_to_stable_optimal": {
+        "n": 10,
+        "mean": 37207.2,
+        "std": 15747.767628743095,
+        "min": 16936.0,
+        "max": 64817.0
+      },
+      "collision_rate_pooled": 0.0,
+      "successful_steps": {
+        "n": 10,
+        "mean": 20.0,
+        "std": 0.0,
+        "min": 20.0,
+        "max": 20.0
+      }
+    }
+  }
+}

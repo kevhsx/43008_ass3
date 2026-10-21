@@ -1,0 +1,6 @@
+{
+  "passed": true,
+  "settings": 9,
+  "runs": 90,
+  "checks": "raw greedy checks, convergence, environment-step summaries and final saved-policy replay"
+}

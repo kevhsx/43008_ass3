@@ -1,0 +1,35 @@
+# Local Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mplcache/
+.ipynb_checkpoints/
+.coverage
+htmlcov/
+
+# Machine-specific files
+.DS_Store
+._*
+Thumbs.db
+.vscode/
+.idea/
+tmp/
+
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Recovery state and new local runs (published evidence stays tracked)
+checkpoint.zip
+checkpoint.tmp
+/results/runs/
+/results/reproduction*/
+/results/my_run/
+/results/new_sweep/
+/results/new_adaptation/
+/results/demo.png

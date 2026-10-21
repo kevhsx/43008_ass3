@@ -1,0 +1,95 @@
+{
+  "method": "q_learning",
+  "seed": 1,
+  "success": 1,
+  "return": 23.2,
+  "steps": 18,
+  "collisions": 0,
+  "collision_rate": 0.0,
+  "route": [
+    [
+      0,
+      9
+    ],
+    [
+      1,
+      9
+    ],
+    [
+      1,
+      8
+    ],
+    [
+      2,
+      8
+    ],
+    [
+      3,
+      8
+    ],
+    [
+      3,
+      7
+    ],
+    [
+      4,
+      7
+    ],
+    [
+      4,
+      6
+    ],
+    [
+      4,
+      5
+    ],
+    [
+      4,
+      4
+    ],
+    [
+      5,
+      4
+    ],
+    [
+      6,
+      4
+    ],
+    [
+      7,
+      4
+    ],
+    [
+      8,
+      4
+    ],
+    [
+      9,
+      4
+    ],
+    [
+      9,
+      3
+    ],
+    [
+      9,
+      2
+    ],
+    [
+      9,
+      1
+    ],
+    [
+      9,
+      0
+    ]
+  ],
+  "optimal": true,
+  "first_success_check": 100,
+  "stable_optimal_check": 170,
+  "steps_to_stable_optimal": 17830,
+  "environment_steps": 72084,
+  "training_seconds": 0.33732392502133735,
+  "evaluation_seconds": 0.022629699975368567,
+  "training_with_checks_seconds": 0.3599536249967059
+}

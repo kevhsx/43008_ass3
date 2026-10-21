@@ -1,0 +1,105 @@
+{
+  "method": "q_learning",
+  "seed": 5,
+  "success": 1,
+  "return": 22.999999999999996,
+  "steps": 20,
+  "collisions": 0,
+  "collision_rate": 0.0,
+  "route": [
+    [
+      0,
+      9
+    ],
+    [
+      1,
+      9
+    ],
+    [
+      1,
+      8
+    ],
+    [
+      1,
+      7
+    ],
+    [
+      1,
+      6
+    ],
+    [
+      1,
+      5
+    ],
+    [
+      1,
+      4
+    ],
+    [
+      2,
+      4
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      4,
+      4
+    ],
+    [
+      4,
+      5
+    ],
+    [
+      4,
+      4
+    ],
+    [
+      5,
+      4
+    ],
+    [
+      6,
+      4
+    ],
+    [
+      7,
+      4
+    ],
+    [
+      7,
+      3
+    ],
+    [
+      8,
+      3
+    ],
+    [
+      8,
+      2
+    ],
+    [
+      8,
+      1
+    ],
+    [
+      8,
+      0
+    ],
+    [
+      9,
+      0
+    ]
+  ],
+  "optimal": true,
+  "first_success_check": 70,
+  "stable_optimal_check": 70,
+  "steps_to_stable_optimal": 12327,
+  "environment_steps": 37285,
+  "training_seconds": 0.17417417201795615,
+  "evaluation_seconds": 0.008545202981622424,
+  "checkpoint_seconds": 0.030222875000617933,
+  "training_with_checks_seconds": 0.18271937499957858,
+  "initial_model": "/Users/huangshengxuan/Documents/ChatGPT/43008ass3/results/main/q_learning/seed_5/q_table.npy"
+}

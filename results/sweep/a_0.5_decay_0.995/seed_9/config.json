@@ -1,0 +1,111 @@
+{
+  "environment": {
+    "width": 10,
+    "height": 10,
+    "start": [
+      0,
+      9
+    ],
+    "pickup": [
+      4,
+      5
+    ],
+    "delivery": [
+      9,
+      0
+    ],
+    "shelves": [
+      [
+        2,
+        1
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        5,
+        1
+      ],
+      [
+        5,
+        2
+      ],
+      [
+        5,
+        3
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        2,
+        6
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        5,
+        5
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        5,
+        7
+      ]
+    ],
+    "max_steps": 200,
+    "step_reward": -0.1,
+    "collision_reward": -1.0,
+    "pickup_reward": 5.0,
+    "delivery_reward": 20.0
+  },
+  "training": {
+    "episodes": 3000,
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "epsilon_start": 1.0,
+    "epsilon_min": 0.05,
+    "epsilon_decay": 0.995,
+    "evaluation_interval": 10,
+    "random_episodes_per_seed": 100
+  },
+  "q_learning": {
+    "alpha": 0.5,
+    "gamma": 0.95
+  },
+  "dqn": {
+    "hidden_sizes": [
+      64,
+      64
+    ],
+    "learning_rate": 0.001,
+    "gamma": 0.95,
+    "batch_size": 64,
+    "buffer_size": 20000,
+    "learning_starts": 1000,
+    "train_frequency": 4,
+    "target_tau": 0.01,
+    "gradient_clip": 10.0
+  }
+}

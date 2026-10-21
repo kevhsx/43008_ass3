@@ -1,0 +1,9 @@
+Command: MPLCONFIGDIR=/private/tmp/partc_mpl .venv/bin/python -m pytest -q
+Result: 36 passed in 7.39s
+Collection: pytest.ini selects tests/, excluding historical source snapshots.
+Main verification: PASS, 20 learned policies; 1000 random episodes; 6 recorded snapshot files.
+Sweep verification: PASS, 9 settings; 90 saved-policy replays.
+Adaptation verification: PASS, 20 adapted policies; 17 recorded snapshot files; 20 frozen-policy replays.
+Notebook: all 7 code cells executed with no errors.
+Headless changed-layout DQN seed 0: success=True; steps=20; return=23.00.
+Word: 7 rendered pages visually inspected; original reference preserved.

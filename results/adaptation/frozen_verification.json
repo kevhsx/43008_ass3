@@ -1,0 +1,5 @@
+{
+  "passed": true,
+  "frozen_policies_replayed": 20,
+  "checks": "base model hashes, frozen replay and changed-layout success counts"
+}

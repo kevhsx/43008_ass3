@@ -1,0 +1,136 @@
+{
+  "python": "3.12.14",
+  "platform": "macOS-26.5.2-arm64-arm-64bit",
+  "processor": "arm",
+  "device": "CPU",
+  "torch_threads": 1,
+  "versions": {
+    "numpy": "2.3.5",
+    "gymnasium": "1.4.0",
+    "torch": "2.14.1",
+    "matplotlib": "3.11.2",
+    "pygame": "2.6.1",
+    "pytest": "9.1.1"
+  },
+  "timing": "Training loop including logging; excludes greedy checks, model creation, final evaluation, checkpoint I/O and final disk writes",
+  "time_limit": "External rollout cap; bootstrap on truncation, mask on delivery termination only",
+  "started_utc": "2026-10-07T18:28:00.788442+00:00",
+  "source_sha256": {
+    "demo.py": "a561010602d5c2953f7e70ae1f64beae578cb49ec16712b6a2b0daebc66fe8ee",
+    "reproduce.py": "30fc3da08342783330500f645652ce8e54473c6d047b8f2c31bafb98598f79e5",
+    "run_adaptation.py": "411f245f0ae7f5041c7fab7cce7f4f9c5e159b5f21988557f226050c44864f66",
+    "run_experiments.py": "009894c823eeea971cf59dbde7a5734da6b055bfd67393656a67d5d0f0427872",
+    "run_sweep.py": "5a1867aea8299284bbea7be673473021423276402f5828cfdb985cfa92978131",
+    "tests/test_project.py": "cf8c963fb826771d009968069ea00b259ff17446c858570a13c6c882539ed09f",
+    "tests/test_recovery.py": "170b02138a5b3743b37a3637b01a468ac0de11d27fe8a84366c904e498dbb354",
+    "tests/test_verification.py": "da7595d373bdbf889c2555cc3744a16c6381ea7ee7bd0ee5eea5c0c2d156b6e0",
+    "verify_results.py": "621e2be0fa90efc0c828e6eee2263f4483e4f380f46ddd075878e90788d3e57c",
+    "warehouse/__init__.py": "3d139ce5edac76ed45f6b8b43fde4cd2be407a4eb0b7d5e885f50b7dac98f9b7",
+    "warehouse/agents.py": "f83f7046e8ac76f3bbce53c80b03d163f7c902d9198f52738673b8b639e6cf2a",
+    "warehouse/analysis.py": "f1b8fd0a5a4e154b76bc380b1a57811fb26943b7deca68083e28837b829d0186",
+    "warehouse/checkpoint.py": "ccdd67120a11580c3097c978b2b5d6cfb57c0c4d3f613248b9b5d057cd1bff99",
+    "warehouse/configuration.py": "de658eb9131964a53d0f2953f857bada8ad893fcb57e8c79d1f89a1e1791dd19",
+    "warehouse/env.py": "43570e274a9b55327e394a3c0483825a0047b7d515693eeb43aa88c1d12916d4",
+    "warehouse/experiment.py": "5d92a32b35f06b12286b4053b883f031d44a3b096b4ae8b9bb67c2adabfc5852",
+    "warehouse/provenance.py": "94a62ecc8759debbeac4e09b3fd459a5eef79f70d6143a80e04c9706c9479922"
+  },
+  "requested_methods": [
+    "q_learning",
+    "dqn"
+  ],
+  "base_models": {
+    "q_learning/seed_0": {
+      "path": "/Users/huangshengxuan/Documents/ChatGPT/43008ass3/results/main/q_learning/seed_0/q_table.npy",
+      "sha256": "31bbcf4ba118bc4264379084fa1b3086ea6ab6c4a7f1533c863fdff9a85b1880"
+    },
+    "q_learning/seed_1": {
+      "path": "/Users/huangshengxuan/Documents/ChatGPT/43008ass3/results/main/q_learning/seed_1/q_table.npy",
+      "sha256": "464412d96a27b554204dbf9e09a46a25ac9f49767373f72bfa8e5e31501130de"
+    },
+    "q_learning/seed_2": {
+      "path": "/Users/huangshengxuan/Documents/ChatGPT/43008ass3/results/main/q_learning/seed_2/q_table.npy",
+      "sha256": "bb29e6e576de9cca44dd730405b5c794a65b1d5c0a973b10dc7c1f22d186e3ed"
+    },
+    "q_learning/seed_3": {
+      "path": "/Users/huangshengxuan/Documents/ChatGPT/43008ass3/results/main/q_learning/seed_3/q_table.npy",
+      "sha256": "9f29863391257f5bb09ae904cef31e39eed57dece2395a2f1dbd34a56bebb133"
+    },
+    "q_learning/seed_4": {
+      "path": "/Users/huangshengxuan/Documents/ChatGPT/43008ass3/results/main/q_learning/seed_4/q_table.npy",
+      "sha256": "d111dc7d7e1962c464aba570b771d22a3d1854d2ca6f38dc412297474b035793"
+    },
+    "q_learning/seed_5": {
+      "path": "/Users/huangshengxuan/Documents/ChatGPT/43008ass3/results/main/q_learning/seed_5/q_table.npy",
+      "sha256": "7f6704463752d6b471dc19f8d72ebd291ad858dd96ad15f7cc5568ae19d9bf29"
+    },
+    "q_learning/seed_6": {
+      "path": "/Users/huangshengxuan/Documents/ChatGPT/43008ass3/results/main/q_learning/seed_6/q_table.npy",
+      "sha256": "c3242e3651329303de1510e1b94d5c5b0fd6e1466dd70fcc89211ade0718cba7"
+    },
+    "q_learning/seed_7": {
+      "path": "/Users/huangshengxuan/Documents/ChatGPT/43008ass3/results/main/q_learning/seed_7/q_table.npy",
+      "sha256": "e7844622296bb91ac0eb850ad463ae865c8b0b4f17f1edc8e8844c64b47847ef"
+    },
+    "q_learning/seed_8": {
+      "path": "/Users/huangshengxuan/Documents/ChatGPT/43008ass3/results/main/q_learning/seed_8/q_table.npy",
+      "sha256": "0d2ce3136005c3bd705dfd9d19fd533e39a548fe402021d1a680ca501f44a79b"
+    },
+    "q_learning/seed_9": {
+      "path": "/Users/huangshengxuan/Documents/ChatGPT/43008ass3/results/main/q_learning/seed_9/q_table.npy",
+      "sha256": "65a86a913309480a28a289982d78ac6225247f1213621c48b744ca9a750ead41"
+    },
+    "dqn/seed_0": {
+      "path": "/Users/huangshengxuan/Documents/ChatGPT/43008ass3/results/main/dqn/seed_0/model.pt",
+      "sha256": "041e303fea047b7e88eb146f8fd3deddf2915068301d24d23355cac57d02aa36"
+    },
+    "dqn/seed_1": {
+      "path": "/Users/huangshengxuan/Documents/ChatGPT/43008ass3/results/main/dqn/seed_1/model.pt",
+      "sha256": "92b3f0463192a8e4cfae469623e25cc77e88e4c19820c03544d97e322e7e70dd"
+    },
+    "dqn/seed_2": {
+      "path": "/Users/huangshengxuan/Documents/ChatGPT/43008ass3/results/main/dqn/seed_2/model.pt",
+      "sha256": "118c7798d12bb41b3ccf830d11d393f875d2d48bcdbeef7ef88415ff1c6e3f33"
+    },
+    "dqn/seed_3": {
+      "path": "/Users/huangshengxuan/Documents/ChatGPT/43008ass3/results/main/dqn/seed_3/model.pt",
+      "sha256": "99286d1cf7939795811b2b8d3f447d7b42d1cd76b91276be9eee069d71f585f6"
+    },
+    "dqn/seed_4": {
+      "path": "/Users/huangshengxuan/Documents/ChatGPT/43008ass3/results/main/dqn/seed_4/model.pt",
+      "sha256": "4700ab0ddcce8364f1d37c1f0168cbdc2a8da5b6e0b2e7e39f05e617066a932e"
+    },
+    "dqn/seed_5": {
+      "path": "/Users/huangshengxuan/Documents/ChatGPT/43008ass3/results/main/dqn/seed_5/model.pt",
+      "sha256": "efe2480159d394999c225fe40c7a91ecb8a6c87bea160548c00b5720da92e86e"
+    },
+    "dqn/seed_6": {
+      "path": "/Users/huangshengxuan/Documents/ChatGPT/43008ass3/results/main/dqn/seed_6/model.pt",
+      "sha256": "37209b592ae323daff27ee0a580535d1772955a44c6d925af67e59b82978650b"
+    },
+    "dqn/seed_7": {
+      "path": "/Users/huangshengxuan/Documents/ChatGPT/43008ass3/results/main/dqn/seed_7/model.pt",
+      "sha256": "aebe4b2b1f68962a587382e4350c13cb1675007e8f8bd1d56722a900e0f5b24f"
+    },
+    "dqn/seed_8": {
+      "path": "/Users/huangshengxuan/Documents/ChatGPT/43008ass3/results/main/dqn/seed_8/model.pt",
+      "sha256": "abdfe4714bcddd00e24b76784453e726e17f25f527cb42ba8c931fe624a8e5f4"
+    },
+    "dqn/seed_9": {
+      "path": "/Users/huangshengxuan/Documents/ChatGPT/43008ass3/results/main/dqn/seed_9/model.pt",
+      "sha256": "31f8664e718732cdae57e2129c02b0e86e6c479033096ae91b54d4693f9dc9d3"
+    }
+  },
+  "base_results": "/Users/huangshengxuan/Documents/ChatGPT/43008ass3/results/main",
+  "added_shelves": [
+    [
+      3,
+      5
+    ],
+    [
+      4,
+      6
+    ]
+  ],
+  "check_env": "passed (registered environment, both observations)",
+  "protocol": "All base final checkpoints; no changed-map tuning. Frozen evaluation first. Fresh epsilon schedule and replay/Adam for warm-start adaptation. Extra budget reported separately."
+}

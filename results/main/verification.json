@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "verified_policies": 20,
+  "policies_by_method": {
+    "q_learning": 10,
+    "dqn": 10
+  },
+  "source_snapshot_files_checked": 6,
+  "random_episodes": 1000,
+  "checks": "source hashes, configuration, raw episode logs, convergence, saved-policy replay, random-baseline replay and summary statistics"
+}

@@ -1,0 +1,41 @@
+{
+  "python": "3.12.14",
+  "platform": "macOS-26.5.2-arm64-arm-64bit",
+  "processor": "arm",
+  "device": "CPU",
+  "torch_threads": 1,
+  "versions": {
+    "numpy": "2.3.5",
+    "gymnasium": "1.4.0",
+    "torch": "2.14.1",
+    "matplotlib": "3.11.2",
+    "pygame": "2.6.1",
+    "pytest": "9.1.1"
+  },
+  "timing": "Training loop including logging; excludes greedy checks, model creation, final evaluation and disk writes",
+  "time_limit": "External rollout cap; bootstrap on truncation, mask on delivery termination only",
+  "started_utc": "2026-10-07T18:05:21.974026+00:00",
+  "source_sha256": {
+    "warehouse/__init__.py": "f87d20822d1de5c065953a6684a46d729974215315fb71c444db2bd900accbb9",
+    "warehouse/agents.py": "f83f7046e8ac76f3bbce53c80b03d163f7c902d9198f52738673b8b639e6cf2a",
+    "warehouse/analysis.py": "f1b8fd0a5a4e154b76bc380b1a57811fb26943b7deca68083e28837b829d0186",
+    "warehouse/env.py": "861c6c895f56b1fe6849c1a96bf16c14c4e694187e3ed3439e91238291e37c21",
+    "warehouse/experiment.py": "262986fe3bf5b56de011b23166fe26d7cd31f94a3cf71827843a4684def4830f",
+    "run_experiments.py": "ad09323deaa9a1e9f06cb280d2d3c25614713fcf3984bc13d3229bf0b8ab2b47"
+  },
+  "check_env": "passed (both observations and render modes)",
+  "training_source_sha256": {
+    "warehouse/__init__.py": "f87d20822d1de5c065953a6684a46d729974215315fb71c444db2bd900accbb9",
+    "warehouse/agents.py": "f83f7046e8ac76f3bbce53c80b03d163f7c902d9198f52738673b8b639e6cf2a",
+    "warehouse/analysis.py": "b9c85f53eca84931685fea04884981cb6ffed3e928addde07f753b50a99cbde9",
+    "warehouse/env.py": "861c6c895f56b1fe6849c1a96bf16c14c4e694187e3ed3439e91238291e37c21",
+    "warehouse/experiment.py": "262986fe3bf5b56de011b23166fe26d7cd31f94a3cf71827843a4684def4830f",
+    "run_experiments.py": "ad09323deaa9a1e9f06cb280d2d3c25614713fcf3984bc13d3229bf0b8ab2b47"
+  },
+  "reporting_changes": {
+    "file": "warehouse/analysis.py",
+    "previous_sha256": "b9c85f53eca84931685fea04884981cb6ffed3e928addde07f753b50a99cbde9",
+    "current_sha256": "f1b8fd0a5a4e154b76bc380b1a57811fb26943b7deca68083e28837b829d0186",
+    "reason": "After training, improve plot labels, clip displayed success standard-deviation band to [0,1], and show timing to 3 decimals. Training code and raw logs unchanged."
+  }
+}

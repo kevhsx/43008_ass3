@@ -1,0 +1,84 @@
+[
+  {
+    "seed": 1,
+    "return": -20.000000000000014,
+    "collisions": 0,
+    "pickup_visited": false,
+    "last_8_positions": [
+      [
+        0,
+        8
+      ],
+      [
+        0,
+        9
+      ],
+      [
+        0,
+        8
+      ],
+      [
+        0,
+        9
+      ],
+      [
+        0,
+        8
+      ],
+      [
+        0,
+        9
+      ],
+      [
+        0,
+        8
+      ],
+      [
+        0,
+        9
+      ]
+    ],
+    "unique_tail_positions": 2
+  },
+  {
+    "seed": 3,
+    "return": -20.000000000000014,
+    "collisions": 0,
+    "pickup_visited": false,
+    "last_8_positions": [
+      [
+        6,
+        8
+      ],
+      [
+        5,
+        8
+      ],
+      [
+        6,
+        8
+      ],
+      [
+        5,
+        8
+      ],
+      [
+        6,
+        8
+      ],
+      [
+        5,
+        8
+      ],
+      [
+        6,
+        8
+      ],
+      [
+        5,
+        8
+      ]
+    ],
+    "unique_tail_positions": 2
+  }
+]

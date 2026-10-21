@@ -1,0 +1,63 @@
+Validation date: 2026-10-15 (Australia/Sydney)
+Environment: independent desktop .venv; requirements-lock.txt installed.
+Scope: tests, saved-result verification and headless demo playback. No full retraining or interactive keyboard validation.
+
+$ .venv/bin/python -m pip check
+No broken requirements found.
+Exit code: 0
+
+$ .venv/bin/python -m pytest tests -q
+.......................................                                  [100%]
+39 passed in 30.80s
+Exit code: 0
+
+$ .venv/bin/python verify_results.py --results results/main --sweep results/sweep
+{
+  "passed": true,
+  "verified_policies": 20,
+  "policies_by_method": {
+    "q_learning": 10,
+    "dqn": 10
+  },
+  "source_snapshot_files_checked": 6,
+  "random_episodes": 1000,
+  "checks": "source hashes, configuration, raw episode logs, convergence, saved-policy replay, random-baseline replay and summary statistics"
+}
+{
+  "passed": true,
+  "settings": 9,
+  "runs": 90,
+  "checks": "raw greedy checks, convergence, environment-step summaries and final saved-policy replay"
+}
+Exit code: 0
+
+$ .venv/bin/python verify_results.py --results results/adaptation --adaptation results/adaptation --base-results results/main
+{
+  "passed": true,
+  "verified_policies": 20,
+  "policies_by_method": {
+    "q_learning": 10,
+    "dqn": 10
+  },
+  "source_snapshot_files_checked": 17,
+  "random_episodes": 0,
+  "checks": "source hashes, configuration, raw episode logs, convergence, saved-policy replay, random-baseline replay and summary statistics"
+}
+{
+  "passed": true,
+  "frozen_policies_replayed": 20,
+  "checks": "base model hashes, frozen replay and changed-layout success counts"
+}
+Exit code: 0
+
+$ .venv/bin/python demo.py --method q_learning --results results/main --seed 0 --headless --screenshot /private/tmp/validation_main_q_learning.png
+Screenshot: /private/tmp/validation_main_q_learning.png; success=True; steps=18; return=23.20
+Exit code: 0
+
+$ .venv/bin/python demo.py --method dqn --results results/main --seed 0 --headless --screenshot /private/tmp/validation_main_dqn.png
+Screenshot: /private/tmp/validation_main_dqn.png; success=True; steps=18; return=23.20
+Exit code: 0
+
+$ .venv/bin/python demo.py --method dqn --results results/adaptation --seed 0 --headless --screenshot /private/tmp/validation_adaptation_dqn.png
+Screenshot: /private/tmp/validation_adaptation_dqn.png; success=True; steps=20; return=23.00
+Exit code: 0
